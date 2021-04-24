@@ -58,7 +58,7 @@ const albumIndex = albumsData.albumsData.findIndex((element)=>{
   })
   albumsData.albumsData.splice(albumIndex, 1, {...albumsData.albumsData[albumIndex], 
     ...req.body})
-  res.send(204);
+  res.send("Ok");
 });
 
 
